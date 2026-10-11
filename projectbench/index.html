@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Solar Smart Bench</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- 3D Model Viewer -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Progress Bar -->
+<div id="progressBar"></div>
+
+<!-- Welcome Message -->
+<div id="welcomeMessage">
+    ☀️ Welcome to Solar Smart Bench
+</div>
+
+    <!--========== HEADER ==========-->
+
+    <header>
+
+
+        <div class="logo" data-en="Solar Smart Bench" data-ar="المقعد الشمسي الذكي">
+
+            Solar Smart Bench
+
+        </div>
+
+        <nav>
+
+
+            <a href="#home" data-en="Home" data-ar="الرئيسية">
+                Home
+            </a>
+
+
+
+            <a href="#about" data-en="About" data-ar="حول المشروع">
+                About
+            </a>
+
+
+
+            <a href="#features" data-en="Features" data-ar="المميزات">
+                Features
+            </a>
+
+
+
+            <a href="#specs" data-en="Specifications" data-ar="المواصفات">
+                Specifications
+            </a>
+
+
+            <a href="#faq" data-en="FAQ" data-ar="الأسئلة الشائعة">
+                FAQ
+            </a>
+
+
+
+            <a href="#contact" data-en="Contact" data-ar="تواصل معنا">
+                Contact
+            </a>
+
+
+
+        </nav>
+        <div class="header-tools">
+
+    <button id="languageBtn">
+        عربي
+    </button>
+
+
+    <button id="darkModeBtn">
+        🌙
+    </button>
+
+
+    <div class="datetime">
+        <div id="clock">00:00:00</div>
+        <div id="date">Loading...</div>
+    </div>
+
+</div>
+    </header>
+
+    <!--========== HERO ==========-->
+
+
+    <section class="hero" id="home">
+
+
+
+        <div class="hero-text">
+
+
+            <h1 data-en="Smart Solar Bench" data-ar="المقعد الشمسي الذكي">
+
+                Smart Solar Bench
+
+            </h1>
+
+            <p data-en="Sustainable outdoor furniture powered by solar energy. Charge your devices while relaxing comfortably."
+                data-ar="أثاث خارجي مستدام يعمل بالطاقة الشمسية. اشحن أجهزتك أثناء الاسترخاء براحة.">
+
+                Sustainable outdoor furniture powered by solar energy.
+                Charge your devices while relaxing comfortably.
+
+            </p>
+
+            <a href="#about" class="btn" data-en="Learn More" data-ar="اعرف المزيد">
+
+                Learn More
+
+            </a>
+
+
+        </div>
+
+        <div class="hero-image">
+
+    <img id="benchImage" src="bench.png" alt="Solar Smart Bench">
+
+</div>
+
+
+    </section>
+
+    <!--========== ABOUT ==========-->
+
+    <section class="about" id="about">
+
+
+        <h2 data-en="About" data-ar="حول المشروع">
+
+            About
+
+        </h2>
+
+        <p data-en="The Solar Smart Bench combines comfort, renewable energy and modern technology into one innovative public seating solution. It provides clean energy for charging electronic devices while offering weather-resistant seating suitable for parks, universities and smart cities."
+            data-ar="يجمع المقعد الشمسي الذكي بين الراحة والطاقة المتجددة والتكنولوجيا الحديثة في حل مبتكر للمقاعد العامة. يوفر طاقة نظيفة لشحن الأجهزة الإلكترونية مع مقعد مقاوم للعوامل الجوية مناسب للحدائق والجامعات والمدن الذكية.">
+
+
+            The Solar Smart Bench combines comfort, renewable energy and modern technology into one innovative public
+            seating solution.
+
+        </p>
+
+    </section>
+
+
+    <!--========== FEATURES ==========-->
+
+    <section class="features" id="features">
+
+
+
+        <h2 data-en="Main Features" data-ar="المميزات الرئيسية">
+
+            Main Features
+
+        </h2>
+
+        <div class="cards">
+
+
+            <div class="card">
+
+
+                <h3 data-en="Solar Energy" data-ar="الطاقة الشمسية">
+
+                    Solar Energy
+
+                </h3>
+
+
+                <p data-en="Generates electricity using high-efficiency solar panels."
+                    data-ar="يولد الكهرباء باستخدام ألواح شمسية عالية الكفاءة.">
+
+                    Generates electricity using high-efficiency solar panels.
+
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+
+                <h3 data-en="USB Charging" data-ar="شحن USB">
+
+                    USB Charging
+
+                </h3>
+
+                <p data-en="Built-in USB charging ports for smartphones, tablets and laptops."
+                    data-ar="منافذ شحن USB مدمجة للهواتف والأجهزة اللوحية والحواسيب.">
+
+                    Built-in USB charging ports for smartphones, tablets and laptops.
+
+                </p>
+
+
+
+            </div>
+
+            <div class="card">
+
+
+                <h3 data-en="Weather Resistant" data-ar="مقاوم للعوامل الجوية">
+
+                    Weather Resistant
+
+                </h3>
+
+
+                <p data-en="Steel structure with corrosion resistance and premium wooden seating."
+                    data-ar="هيكل فولاذي مقاوم للتآكل ومقاعد خشبية عالية الجودة.">
+
+                    Steel structure with corrosion resistance and premium wooden seating.
+
+                </p>
+
+
+            </div>
+
+
+            <div class="card">
+
+
+                <h3 data-en="Battery Storage" data-ar="تخزين الطاقة">
+
+                    Battery Storage
+
+                </h3>
+
+                <p data-en="Stores solar energy for charging even after sunset."
+                    data-ar="يخزن الطاقة الشمسية للشحن حتى بعد غروب الشمس.">
+
+                    Stores solar energy for charging.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!--========== SPECIFICATIONS ==========-->
+
+    <section class="specs" id="specs">
+
+
+        <h2 data-en="Specifications" data-ar="المواصفات">
+
+            Specifications
+
+        </h2>
+
+        <table>
+
+
+            <tr>
+
+                <th data-en="Component" data-ar="المكون">
+
+                    Component
+
+                </th>
+
+
+                <th data-en="Description" data-ar="الوصف">
+
+                    Description
+
+                </th>
+
+
+            </tr>
+
+            <tr>
+
+                <td data-en="Solar Panel" data-ar="الألواح الشمسية">
+
+                    Solar Panel
+
+                </td>
+
+                <td>
+                    2415 × 990 × 30 mm
+                </td>
+
+
+            </tr>
+
+            <tr>
+
+                <td data-en="Height" data-ar="الارتفاع">
+
+                    Height
+
+                </td>
+
+
+                <td>
+                    2200 mm
+                </td>
+
+
+            </tr>
+
+            <tr>
+
+                <td data-en="Seat" data-ar="المقعد">
+
+                    Seat
+
+                </td>
+
+
+                <td data-en="Weather Resistant Wood" data-ar="خشب مقاوم للعوامل الجوية">
+
+                    Weather Resistant Wood
+
+                </td>
+
+
+            </tr>
+
+            <tr>
+
+                <td data-en="Frame" data-ar="الهيكل">
+
+                    Frame
+
+                </td>
+
+
+                <td data-en="Steel Structure" data-ar="هيكل فولاذي">
+
+                    Steel Structure
+
+                </td>
+
+
+            </tr>
+
+            <tr>
+
+                <td data-en="Charging" data-ar="الشحن">
+
+                    Charging
+
+                </td>
+
+
+                <td data-en="USB & AC Outlet" data-ar="منفذ USB و AC">
+
+                    USB & AC Outlet
+
+                </td>
+
+
+            </tr>
+
+
+
+        </table>
+
+
+
+    </section>
+
+
+    <!--========== GALLERY ==========-->
+
+
+    <section class="gallery">
+
+
+        <h2 data-en="Bench Design" data-ar="تصميم المقعد">
+
+         <section class="video-section">
+
+    <h2>Watch Our Smart Bench</h2>
+
+    <video controls width="900">
+
+        <source src="video/bench.mp4" type="video/mp4">
+
+        Your browser does not support the video tag.
+
+    </video>
+
+</section>
+
+
+
+    </section>
+
+    <!--========== FAQ ==========-->
+
+    <section class="faq" id="faq">
+
+
+
+        <h2 data-en="Frequently Asked Questions" data-ar="الأسئلة الشائعة">
+
+            Frequently Asked Questions
+
+        </h2>
+
+        <div class="faq-box">
+
+    <h3 class="faq-question"
+    data-en="How does the Solar Smart Bench work?"
+    data-ar="كيف يعمل المقعد الشمسي الذكي؟">
+
+        <span class="arrow">▶</span>
+        How does the Solar Smart Bench work?
+
+    </h3>
+
+
+    <p class="faq-answer"
+    data-en="Solar panels collect sunlight and convert it into electrical energy stored in the battery system."
+    data-ar="تقوم الألواح الشمسية بجمع ضوء الشمس وتحويله إلى طاقة كهربائية يتم تخزينها في البطارية.">
+
+        Solar panels collect sunlight and convert it into electrical energy stored in the battery system.
+
+    </p>
+
+</div>
+
+        <div class="faq-box">
+
+    <h3 class="faq-question"
+    data-en="Can I charge my devices at night?"
+    data-ar="هل يمكنني شحن أجهزتي في الليل؟">
+
+        <span class="arrow">▶</span>
+        Can I charge my devices at night?
+
+    </h3>
+
+
+    <p class="faq-answer"
+    data-en="Yes, stored battery energy allows users to charge devices after sunset."
+    data-ar="نعم، تسمح الطاقة المخزنة في البطارية بشحن الأجهزة بعد غروب الشمس.">
+
+        Yes, stored battery energy allows users to charge devices after sunset.
+
+    </p>
+
+</div>
+
+
+        <div class="faq-box">
+
+    <h3 class="faq-question"
+    data-en="What devices can be charged?"
+    data-ar="ما الأجهزة التي يمكن شحنها؟">
+
+        <span class="arrow">▶</span>
+        What devices can be charged?
+
+    </h3>
+
+
+    <p class="faq-answer"
+    data-en="The bench supports charging smartphones, tablets, laptops and USB supported devices."
+    data-ar="يدعم المقعد شحن الهواتف الذكية والأجهزة اللوحية والحواسيب والأجهزة التي تعمل عبر USB.">
+
+        The bench supports charging smartphones, tablets, laptops and USB supported devices.
+
+    </p>
+
+</div>
+
+
+        <div class="faq-box">
+
+    <h3 class="faq-question"
+    data-en="Is the bench weather resistant?"
+    data-ar="هل المقعد مقاوم للعوامل الجوية؟">
+
+        <span class="arrow">▶</span>
+        Is the bench weather resistant?
+
+    </h3>
+
+
+    <p class="faq-answer"
+    data-en="The bench is designed using durable materials suitable for outdoor environments."
+    data-ar="تم تصميم المقعد باستخدام مواد قوية ومناسبة للبيئات الخارجية.">
+
+        The bench is designed using durable materials suitable for outdoor environments.
+
+    </p>
+
+</div>
+
+
+       <div class="faq-box">
+
+    <h3 class="faq-question"
+    data-en="Where can the Solar Smart Bench be installed?"
+    data-ar="أين يمكن تركيب المقعد الشمسي الذكي؟">
+
+        <span class="arrow">▶</span>
+        Where can the Solar Smart Bench be installed?
+
+    </h3>
+
+
+    <p class="faq-answer"
+    data-en="It can be installed in universities, parks, streets, transportation areas and smart cities."
+    data-ar="يمكن تركيبه في الجامعات والحدائق والشوارع ومناطق النقل والمدن الذكية.">
+
+        It can be installed in universities, parks, streets, transportation areas and smart cities.
+
+    </p>
+
+</div>
+
+    </section>
+
+    <!--========== CONTACT ==========-->
+
+    <section class="contact" id="contact">
+
+        
+        <h2 data-en="Contact Us" data-ar="تواصل معنا">
+
+            Contact Us
+
+        </h2>
+
+        
+        <h3 data-en="If you have a suggestion or encounter a problem, please contact us."
+            data-ar="إذا كان لديك اقتراح أو واجهت مشكلة، يرجى التواصل معنا.">
+
+            If you have a suggestion or encounter a problem, please contact us.
+
+        </h3>
+
+        
+        <form action="https://formsubmit.co/rayanawadd5@gmail.com" method="POST">
+
+
+
+            <input type="hidden" name="_captcha" value="false">
+
+
+
+            <input type="hidden" name="_subject" value="Solar Smart Bench Contact">
+
+            
+
+            <input type="text" name="name" placeholder="Full Name" required>
+
+            
+            <input type="email" name="email" placeholder="Email" required>
+
+            <textarea name="message" placeholder="Message" required>
+
+</textarea>
+
+
+            <button type="submit" data-en="Send Message" data-ar="إرسال الرسالة">
+
+                Send Message
+
+            </button>
+
+
+        </form>
+
+    </section>
+
+
+    <!--========== FOOTER ==========-->
+
+    <footer>
+
+        <h3 data-en="Solar Smart Bench" data-ar="المقعد الشمسي الذكي">
+
+            Solar Smart Bench
+
+        </h3>
+
+        <p data-en="Sustainable • Smart • Eco Friendly" data-ar="مستدام • ذكي • صديق للبيئة">
+
+            Sustainable • Smart • Eco Friendly
+
+        </p>
+
+        <p>
+
+            © 2026 All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+    <button id="topBtn">↑</button>
+    <script src="script.js"></script>
+    
+
+</body>
+
+</html>
